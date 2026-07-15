@@ -1,0 +1,70 @@
+# .project metadata for BFE
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "bfe"
+name: "BFE"
+description: "Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd"
+type: "project"
+project_lead: "mileszhang2016" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#bfe"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2020-06-25T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1066" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/bfenetworks/bfe"
+
+website: "https://www.bfe-networks.net"
+
+artwork: "https://landscape.cncf.io/logos/bfe.svg"
+
+adopters:
+  path: "https://github.com/bfenetworks/bfe/blob/develop/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "bfenetworks/bfe"
+
+social:
+  twitter: "https://twitter.com/BfeNetworks"
+
+security:
+  policy:
+    path: "https://github.com/bfenetworks/bfe/blob/develop/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/bfenetworks/bfe/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/bfenetworks/bfe/blob/develop/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/bfenetworks/bfe/blob/develop/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/bfenetworks/bfe/blob/develop/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/bfenetworks/bfe/blob/develop/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Proxy"
+
