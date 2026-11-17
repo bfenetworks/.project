@@ -26,7 +26,7 @@ repositories:
 
 website: "https://www.bfe-networks.net"
 
-artwork: "https://landscape.cncf.io/logos/bfe.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/bfe"
 
 adopters:
   path: "https://github.com/bfenetworks/bfe/blob/develop/ADOPTERS.md"
